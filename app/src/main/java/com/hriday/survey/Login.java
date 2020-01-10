@@ -42,7 +42,7 @@ public class Login extends AppCompatActivity {
         userpwd=findViewById(R.id.userpassword);
         login_btn=findViewById(R.id.lgn_btn);
 
-
+        Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show();
         // Check if already login or not
         SharedPreferences checklogin=getSharedPreferences("user_details", MODE_PRIVATE);
         Boolean islogin = checklogin.getBoolean("is_login", false);
