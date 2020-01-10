@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Survey</string>
+    <string name="project_label">Select Project</string>
+
+    <string-array name="project_name">
+        <item>Hriday</item>
+        <item>RCPRO</item>
+        <item>Myhotline</item>
+    </string-array>
+</resources>
